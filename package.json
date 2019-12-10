@@ -1,0 +1,39 @@
+{
+  "name": "huaweicloud-iot-device-sdk",
+  "version": "0.0.2",
+  "description": "华为云IoT物联网平台户端",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha",
+    "coverage": "nyc report --reporter=html",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xihu-fm/huaweicloud-iot-device-sdk.git"
+  },
+  "keywords": [
+    "huawei",
+    "IoT",
+    "huawei-iot-mqtt",
+    "mqtt"
+  ],
+  "author": "wongxming",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xihu-fm/huaweicloud-iot-device-sdk/issues"
+  },
+  "engines": {
+    "node": ">= 7.6"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "mqtt": "^2.18.8"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "nyc": "^11.3.0",
+    "coveralls": "^3.0.0",
+    "chai": "^4.1.2"
+  }
+}
